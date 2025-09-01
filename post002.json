@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-09-01T00:23:00",
+  "project": "ESU Analytics - Marketing con IA",
+  "inputs": {
+    "brief": {
+      "tema": [
+        "Cómo ordenar datos de ventas para tomar decisiones mejor informadas"
+      ],
+      "objetivo": [
+        "Educar y generar interés por un diagnóstico inicial"
+      ],
+      "audiencia": [
+        "Dueños de PyMEs retail y gerentes comerciales"
+      ],
+      "insight": [
+        "Sin datos limpios y consistentes, el margen se vuelve impredecible"
+      ],
+      "evidencia": [
+        "Planillas dispersas generan errores; unificarlas reduce reprocesos"
+      ],
+      "cta": [
+        "Agendá una consulta gratuita para revisar tu caso"
+      ],
+      "restricciones": "máx. 110 palabras, sin hashtags ni emojis"
+    },
+    "system_prompt": "Eres un creador de contenido para ESU Analytics, consultora que ayuda a PyMEs de Manufactura y Comercio a profesionalizar su estrategia de datos (ventas, stock, estrategia comercial).\nTu prioridad: claridad, utilidad práctica para dueños/gerentes PyME en Argentina, tono profesional y cercano, y una llamada a la acción concreta.\nResponde siempre en español de Buenos Aires neutral.\n",
+    "user_prompt": "Tarea: Escribe un post de LinkedIn.\n\nBrief:\n- Tema: ('Cómo ordenar datos de ventas para tomar decisiones mejor informadas',)\n- Objetivo del post: ('Educar y generar interés por un diagnóstico inicial',)\n- Audiencia: ('Dueños de PyMEs retail y gerentes comerciales',)\n- Ángulo/Insight: ('Sin datos limpios y consistentes, el margen se vuelve impredecible',)\n- Evidencia/ejemplo breve (opcional): ('Planillas dispersas generan errores; unificarlas reduce reprocesos',)\n- CTA: ('Agendá una consulta gratuita para revisar tu caso',)\n- Restricciones: máx. 110 palabras, sin hashtags ni emojis\n\nFormato deseado:\n- 3–5 líneas, con una idea central y un cierre con CTA.\n- Incluye 1 micro-lista de 3 ítems si aporta claridad.\n- No uses hashtags en esta versión.\n\nEntrega:\nDevuelve SOLO un objeto JSON con:\n{\n \"titulo\": \"...\",\n \"cuerpo\": \"...\",\n \"cta\": \"...\",\n \"palabras\": <int>\n}\n"
+  },
+  "output": {
+    "titulo": "Cómo ordenar datos de ventas para decisiones más informadas",
+    "cuerpo": "Sin datos limpios y consistentes, el margen de tu negocio se vuelve impredecible. Para evitar errores y mejorar la toma de decisiones, considera estos pasos: \n1. Unifica tus planillas de ventas. \n2. Establece un formato estándar. \n3. Realiza auditorías periódicas. \nOrdenar tus datos no solo reduce reprocesos, sino que también potencia tu estrategia comercial.",
+    "cta": "Agendá una consulta gratuita para revisar tu caso.",
+    "palabras": 104
+  },
+  "meta": {
+    "elapsed_ms": 3547,
+    "input_tokens_est": 312,
+    "output_tokens_est": 136,
+    "total_tokens_est": 448,
+    "api": "chat.completions",
+    "model": "gpt-4o-mini",
+    "max_output_tokens": 220,
+    "temperature": 0.2
+  }
+}
