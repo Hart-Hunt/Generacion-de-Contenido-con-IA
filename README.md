@@ -16,5 +16,5 @@ El proyecto demuestra cómo aplicar técnicas de **Fast Prompting** para optimiz
 
 ## 🛠️ Contenido del repositorio  
 
-- **`notebook_poc.ipynb`** → Notebook princ**_**
+- **`Generación de Contenido con IA.ipynb`** → Notebook principal
 
