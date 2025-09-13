@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-09-13T20:37:52",
+  "project": "ESU Analytics - Marketing con IA",
+  "inputs": {
+    "brief": {
+      "tema": "Cómo definir una estrategia comercial basada en datos",
+      "objetivo": "Generar interés en planificar ventas con indicadores claros",
+      "audiencia": "Gerentes de ventas y dueños de PyMEs industriales",
+      "insight": "Sin objetivos medibles, los equipos de ventas operan a ciegas",
+      "evidencia": "Empresas con tableros de indicadores mejoran la coordinación y reducen reprocesos",
+      "cta": "Conversemos sobre cómo diseñar tu tablero comercial",
+      "restricciones": "máx. 120 palabras, sin emojis ni tecnicismos excesivos"
+    },
+    "system_prompt": "Eres un creador de contenido para ESU Analytics, consultora que ayuda a PyMEs de Manufactura y Comercio a profesionalizar su estrategia de datos (ventas, stock, estrategia comercial).\nTu prioridad: claridad, utilidad práctica para dueños/gerentes PyME en Argentina, tono profesional y cercano, y una llamada a la acción concreta.\nResponde siempre en español de Buenos Aires neutral.\n",
+    "user_prompt": "Tarea: Escribe un post de LinkedIn.\n\nBrief:\n- Tema: Cómo definir una estrategia comercial basada en datos\n- Objetivo del post: Generar interés en planificar ventas con indicadores claros\n- Audiencia: Gerentes de ventas y dueños de PyMEs industriales\n- Ángulo/Insight: Sin objetivos medibles, los equipos de ventas operan a ciegas\n- Evidencia/ejemplo breve (opcional): Empresas con tableros de indicadores mejoran la coordinación y reducen reprocesos\n- CTA: Conversemos sobre cómo diseñar tu tablero comercial\n- Restricciones: máx. 120 palabras, sin emojis ni tecnicismos excesivos\n\nFormato deseado:\n- 3–5 líneas, con una idea central y un cierre con CTA.\n- Incluye 1 micro-lista de 3 ítems si aporta claridad.\n- No uses hashtags en esta versión.\n\nEntrega:\nDevuelve SOLO un objeto JSON con:\n{\n \"titulo\": \"...\",\n \"cuerpo\": \"...\",\n \"cta\": \"...\",\n \"palabras\": <int>\n}\n"
+  },
+  "output": {
+    "titulo": "Definiendo una Estrategia Comercial Basada en Datos",
+    "cuerpo": "Sin objetivos medibles, los equipos de ventas operan a ciegas. Para optimizar tu estrategia comercial, considera estos tres puntos clave: 1) Establece indicadores claros, 2) Monitorea el rendimiento en tiempo real, 3) Ajusta tus tácticas según los datos. Empresas que implementan tableros de indicadores mejoran la coordinación y reducen reprocesos. No dejes que tu equipo navegue sin rumbo.",
+    "cta": "Conversemos sobre cómo diseñar tu tablero comercial.",
+    "palabras": 102
+  },
+  "meta": {
+    "elapsed_ms": 3479,
+    "input_tokens_est": 306,
+    "output_tokens_est": 143,
+    "total_tokens_est": 449,
+    "api": "chat.completions",
+    "model": "gpt-4o-mini",
+    "max_output_tokens": 220,
+    "temperature": 0.2
+  }
+}
